@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.navigation.game">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/game"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/image2028">
+
+        <ImageView
+            android:id="@+id/destroyer1"
+            android:layout_width="100dp"
+            android:layout_height="88dp"
+            android:src="@drawable/hviezda"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/destroyer2"
+            android:layout_width="100dp"
+            android:layout_height="88dp"
+            android:src="@drawable/hviezda"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/destroyer3"
+            android:layout_width="100dp"
+            android:layout_height="88dp"
+            android:src="@drawable/hviezda"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/destroyer4"
+            android:layout_width="100dp"
+            android:layout_height="88dp"
+            android:src="@drawable/hviezda"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/destroyer5"
+            android:layout_width="100dp"
+            android:layout_height="88dp"
+            android:src="@drawable/hviezda"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/destroyer6"
+            android:layout_width="100dp"
+            android:layout_height="88dp"
+            android:src="@drawable/hviezda"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/destroyer7"
+            android:layout_width="100dp"
+            android:layout_height="88dp"
+            android:src="@drawable/hviezda"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/destroyer8"
+            android:layout_width="100dp"
+            android:layout_height="88dp"
+            android:src="@drawable/hviezda"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/gameBaseBalon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/basebalon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"/>
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="54dp"
+            android:layout_height="56dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/black"
+
+            app:autoSizeTextType="uniform"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:contentDescription="Score" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
